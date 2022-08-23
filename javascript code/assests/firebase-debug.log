@@ -1,0 +1,46 @@
+[debug] [2022-06-18T06:39:34.044Z] ----------------------------------------------------------------------
+[debug] [2022-06-18T06:39:34.047Z] Command:       C:\Users\User\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-18T06:39:34.048Z] CLI Version:   11.1.0
+[debug] [2022-06-18T06:39:34.048Z] Platform:      win32
+[debug] [2022-06-18T06:39:34.048Z] Node Version:  v16.15.1
+[debug] [2022-06-18T06:39:34.049Z] Time:          Sat Jun 18 2022 11:39:34 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-06-18T06:39:34.050Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-18T06:39:34.069Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-06-18T06:39:34.115Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-18T06:39:34.116Z] > authorizing via signed-in user (sabihasandali@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\User\Desktop\public\assests
+
+[debug] [2022-06-18T06:39:35.069Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-06-18T06:39:35.070Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-06-18T06:39:35.078Z] Error: EPERM: operation not permitted, open 'C:\Users\User\.config\configstore\firebase-tools.json.685815382'
+    at Object.openSync (node:fs:585:3)
+    at Function.writeFileSync [as sync] (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\write-file-atomic\index.js:205:13)
+    at Configstore.set all [as all] (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:61:20)
+    at Configstore.set (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\fetchMOTD.js:35:39
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-06-18T06:39:35.566Z] Error: EPERM: operation not permitted, open 'C:\Users\User\.config\configstore\firebase-tools.json.1959508612'
+    at Object.openSync (node:fs:585:3)
+    at Function.writeFileSync [as sync] (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\write-file-atomic\index.js:205:13)
+    at Configstore.set all [as all] (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:61:20)
+    at Configstore.set (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at process.<anonymous> (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js:104:35)
+    at process.emit (node:events:539:35)
+    at process.exit (node:internal/process/per_thread:189:15)
+    at Timeout._onTimeout (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\errorOut.js:20:17)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
